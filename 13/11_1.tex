@@ -1,0 +1,132 @@
+\documentclass{beamer}
+\usetheme{Madrid}
+
+\usepackage{amsmath, amssymb, amsthm}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage{gensymb}
+\usepackage[utf8]{inputenc}
+\usepackage{hyperref}
+\usepackage{gvv}
+
+\begin{document}
+
+\title{ASSIGNMENT11.15\_13Q}
+\author{EE22BTECH11219 - Rada Sai Sujan$^{}$% <-this % stops a space
+}
+\frame{\titlepage}
+
+\begin{frame}
+\frametitle{Question}
+Given below are some functions of x and t to 
+represent the displacement (transverse
+or longitudinal) of an elastic wave. State which of these represents \brak i travelling
+wave, \brak {ii} a stationary wave or \brak {iii} none at all: \\
+\begin{enumerate}
+\item $y = 2\cos \brak{3x} \sin \brak{10t}$
+\item $y=2\sqrt{x-vt}$
+\item $y = 3\sin \brak{5x - 0.5t} + 4\cos \brak{5x - 0.5t}$
+\item $y = \cos x \sin t + \cos 2x \sin 2t$
+\end{enumerate}
+\end{frame}
+
+\begin{frame}{allowframebreaks}
+\frametitle{Solution: Theory}
+\input{tables/TABLE1.tex}
+\end{frame}
+
+\begin{frame}
+\frametitle{Theory}
+Let us assume an equation:
+\begin{align}
+y=A(x)\cos \brak{\omega t+\phi\brak {x}}
+\end{align}
+\end{frame}
+
+\begin{frame}
+\frametitle{Theory}
+\input{tables/TABLE2.tex}
+\end{frame}
+
+\begin{frame}
+\frametitle{Graph}
+\begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\columnwidth]{figs/a.png}
+                        \caption{DIPLACEMENT $vs$ TIME-graph1}
+                        \label{fig:1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Graph}
+\begin{figure}[ht]
+                            \centering
+                            \includegraphics[width=\columnwidth]{figs/b.png}
+                            \caption{DIPLACEMENT $vs$ TIME-graph2}
+                            \label{fig:2}
+\end{figure}   
+\end{frame}
+
+\begin{frame}
+\frametitle{Graph}
+\begin{figure}[ht]
+                             \centering
+                             \includegraphics[width=\columnwidth]{figs/c.png}
+                             \caption{DIPLACEMENT $vs$ TIME-graph3}
+                             \label{fig:3}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Graph}
+\begin{figure}[ht]
+                            \centering
+                            \includegraphics[width=\columnwidth]{figs/d.png}
+                            \caption{DIPLACEMENT $vs$ TIME-graph4}
+                            \label{fig:4}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Theory}
+\figref{fig:1} and \figref{fig:3} are self explanatory for stationary and travelling waves.
+\figref{fig:2} and \figref{fig:4} are neither stationary nor travelling waves. 
+\end{frame}
+
+\begin{frame}
+\frametitle{Code}
+\begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\columnwidth]{figs/1.png}
+                        \label{fig:1.1}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Code}
+\begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\columnwidth]{figs/2.png}
+                        \label{fig:1.2}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Code}
+\begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\columnwidth]{figs/3.png}
+                        \label{fig:1.3}
+\end{figure}
+\end{frame}
+
+\begin{frame}
+\frametitle{Code}
+\begin{figure}[ht]
+                        \centering
+                        \includegraphics[width=\columnwidth]{figs/4.png}
+                        \label{fig:1.3}
+\end{figure}
+\end{frame}
+\end{document}
